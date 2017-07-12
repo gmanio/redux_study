@@ -1,0 +1,226 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$input-chk-on-name: 'input_chk_on';
+$input-chk-on-x: 0px;
+$input-chk-on-y: 0px;
+$input-chk-on-offset-x: 0px;
+$input-chk-on-offset-y: 0px;
+$input-chk-on-width: 60px;
+$input-chk-on-height: 60px;
+$input-chk-on-total-width: 120px;
+$input-chk-on-total-height: 100px;
+$input-chk-on-image: 'sprite-common.png';
+$input-chk-on: (0px, 0px, 0px, 0px, 60px, 60px, 120px, 100px, 'sprite-common.png', 'input_chk_on', );
+$input-chk-see-on-name: 'input_chk_see_on';
+$input-chk-see-on-x: 0px;
+$input-chk-see-on-y: 60px;
+$input-chk-see-on-offset-x: 0px;
+$input-chk-see-on-offset-y: -60px;
+$input-chk-see-on-width: 40px;
+$input-chk-see-on-height: 40px;
+$input-chk-see-on-total-width: 120px;
+$input-chk-see-on-total-height: 100px;
+$input-chk-see-on-image: 'sprite-common.png';
+$input-chk-see-on: (0px, 60px, 0px, -60px, 40px, 40px, 120px, 100px, 'sprite-common.png', 'input_chk_see_on', );
+$input-chk-see-name: 'input_chk_see';
+$input-chk-see-x: 40px;
+$input-chk-see-y: 60px;
+$input-chk-see-offset-x: -40px;
+$input-chk-see-offset-y: -60px;
+$input-chk-see-width: 40px;
+$input-chk-see-height: 40px;
+$input-chk-see-total-width: 120px;
+$input-chk-see-total-height: 100px;
+$input-chk-see-image: 'sprite-common.png';
+$input-chk-see: (40px, 60px, -40px, -60px, 40px, 40px, 120px, 100px, 'sprite-common.png', 'input_chk_see', );
+$input-chk-name: 'input_chk';
+$input-chk-x: 60px;
+$input-chk-y: 0px;
+$input-chk-offset-x: -60px;
+$input-chk-offset-y: 0px;
+$input-chk-width: 60px;
+$input-chk-height: 60px;
+$input-chk-total-width: 120px;
+$input-chk-total-height: 100px;
+$input-chk-image: 'sprite-common.png';
+$input-chk: (60px, 0px, -60px, 0px, 60px, 60px, 120px, 100px, 'sprite-common.png', 'input_chk', );
+$retina-input-chk-on-name: 'retina_input_chk_on';
+$retina-input-chk-on-x: 0px;
+$retina-input-chk-on-y: 0px;
+$retina-input-chk-on-offset-x: 0px;
+$retina-input-chk-on-offset-y: 0px;
+$retina-input-chk-on-width: 60px;
+$retina-input-chk-on-height: 60px;
+$retina-input-chk-on-total-width: 120px;
+$retina-input-chk-on-total-height: 100px;
+$retina-input-chk-on-image: 'sprite-common@2x.png';
+$retina-input-chk-on: (0px, 0px, 0px, 0px, 60px, 60px, 120px, 100px, 'sprite-common@2x.png', 'retina_input_chk_on', );
+$retina-input-chk-see-on-name: 'retina_input_chk_see_on';
+$retina-input-chk-see-on-x: 0px;
+$retina-input-chk-see-on-y: 60px;
+$retina-input-chk-see-on-offset-x: 0px;
+$retina-input-chk-see-on-offset-y: -60px;
+$retina-input-chk-see-on-width: 40px;
+$retina-input-chk-see-on-height: 40px;
+$retina-input-chk-see-on-total-width: 120px;
+$retina-input-chk-see-on-total-height: 100px;
+$retina-input-chk-see-on-image: 'sprite-common@2x.png';
+$retina-input-chk-see-on: (0px, 60px, 0px, -60px, 40px, 40px, 120px, 100px, 'sprite-common@2x.png', 'retina_input_chk_see_on', );
+$retina-input-chk-see-name: 'retina_input_chk_see';
+$retina-input-chk-see-x: 40px;
+$retina-input-chk-see-y: 60px;
+$retina-input-chk-see-offset-x: -40px;
+$retina-input-chk-see-offset-y: -60px;
+$retina-input-chk-see-width: 40px;
+$retina-input-chk-see-height: 40px;
+$retina-input-chk-see-total-width: 120px;
+$retina-input-chk-see-total-height: 100px;
+$retina-input-chk-see-image: 'sprite-common@2x.png';
+$retina-input-chk-see: (40px, 60px, -40px, -60px, 40px, 40px, 120px, 100px, 'sprite-common@2x.png', 'retina_input_chk_see', );
+$retina-input-chk-name: 'retina_input_chk';
+$retina-input-chk-x: 60px;
+$retina-input-chk-y: 0px;
+$retina-input-chk-offset-x: -60px;
+$retina-input-chk-offset-y: 0px;
+$retina-input-chk-width: 60px;
+$retina-input-chk-height: 60px;
+$retina-input-chk-total-width: 120px;
+$retina-input-chk-total-height: 100px;
+$retina-input-chk-image: 'sprite-common@2x.png';
+$retina-input-chk: (60px, 0px, -60px, 0px, 60px, 60px, 120px, 100px, 'sprite-common@2x.png', 'retina_input_chk', );
+$spritesheet-width: 120px;
+$spritesheet-height: 100px;
+$spritesheet-image: 'sprite-common.png';
+$spritesheet-sprites: ($input-chk-on, $input-chk-see-on, $input-chk-see, $input-chk, );
+$spritesheet: (120px, 100px, 'sprite-common.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 120px;
+$retina-spritesheet-height: 100px;
+$retina-spritesheet-image: 'sprite-common@2x.png';
+$retina-spritesheet-sprites: ($retina-input-chk-on, $retina-input-chk-see-on, $retina-input-chk-see, $retina-input-chk, );
+$retina-spritesheet: (120px, 100px, 'sprite-common@2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$input-chk-on-group-name: 'input_chk_on';
+$input-chk-on-group: ('input_chk_on', $input-chk-on, $retina-input-chk-on, );
+$input-chk-see-on-group-name: 'input_chk_see_on';
+$input-chk-see-on-group: ('input_chk_see_on', $input-chk-see-on, $retina-input-chk-see-on, );
+$input-chk-see-group-name: 'input_chk_see';
+$input-chk-see-group: ('input_chk_see', $input-chk-see, $retina-input-chk-see, );
+$input-chk-group-name: 'input_chk';
+$input-chk-group: ('input_chk', $input-chk, $retina-input-chk, );
+$retina-groups: ($input-chk-on-group, $input-chk-see-on-group, $input-chk-see-group, $input-chk-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}
