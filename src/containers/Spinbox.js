@@ -1,15 +1,21 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {increment, decrement} from "../actions/Spinbox";
+import {push} from "react-router-redux";
 
-let Spinbox = ({value, increment, decrement}) => {
-    return (
-        <div>
-            <button onClick={increment}>up</button>
-            <input type="text" value={value}/>
-            <button onClick={decrement}>down</button>
-        </div>
-    )
+class Spinbox extends React.Component {
+
+    render() {
+        return (
+            <div>
+                <button onClick={this.props.increment}>up</button>
+                <input type="text" value={this.props.value}/>
+                <button onClick={this.props.decrement}>down</button>
+                <button onClick={this.props.goto}>goToAbout</button>
+            </div>
+        )
+
+    }
 }
 
 const mapStateToProps = (state) => ({
@@ -19,6 +25,10 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
     increment: () => {
         dispatch(increment(1));
+    },
+
+    goto: () => {
+        dispatch(push('/about'));
     },
     decrement: () => {
         dispatch(decrement(1));

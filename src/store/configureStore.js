@@ -1,12 +1,19 @@
-import {createStore, applyMiddleware} from 'redux';
-import rootReducer from '../reducers';
-import thunk from 'redux-thunk';
+import {createStore, applyMiddleware, combineReducers} from 'redux';
+import reducers from '../reducers';
+import {routerMiddleware, routerReducer} from 'react-router-redux';
+// import spinbox from "../reducers/spinbox";
 
-export default function configureStore() {
+export default function configureStore(history) {
     return createStore(
-        rootReducer,
+        combineReducers({
+            ...reducers,
+            router: routerReducer
+        }),
+        // rootReducer,
         chromeDevTools(),
-        applyMiddleware(thunk)
+        // applyMiddleware(thunk),
+        applyMiddleware(routerMiddleware(history))
+        // applyMiddleware(middleware)
     );
 }
 

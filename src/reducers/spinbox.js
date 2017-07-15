@@ -5,7 +5,7 @@ const spinbox = (state = 0, action) => {
         case 'DECREMENT':
             return state - action.value;
         default:
-            return state
+            return state;
     }
 }
 
